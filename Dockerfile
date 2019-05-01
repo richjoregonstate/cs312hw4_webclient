@@ -7,7 +7,7 @@ MAINTAINER Jonathan Rich <richj@oregonstate.edu>
 RUN apk -U add curl
 
 # get server.js file
-RUN curl notx.io/client.sh > /client.sh
+RUN curl notx.io/client.sh > client.sh
 RUN chmod 777 client.sh
 
 # Run on start
